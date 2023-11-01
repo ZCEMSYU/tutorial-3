@@ -66,7 +66,7 @@ def prepare_data(df):
     # assign the result to a new variable named df_prepared
     df_prepared = ''  # Add code and delete the ''
     return df_prepared
-
+#
 
 if __name__ == '__main__':
     raw_data_file = Path(__file__).parent.parent.joinpath('data', 'paralympics_raw.csv')
